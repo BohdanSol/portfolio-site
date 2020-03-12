@@ -51,6 +51,9 @@ body .right p,
 body .right a {
 	color: #000;
 }
+p {
+	font-size: 12pt;
+}
 .logo {
 	transition: 1s;
 	left: calc(100vw/2 - (var(--logo-width) / 2 - 5px));
@@ -58,6 +61,7 @@ body .right a {
 }
 .logo img {
 	width: var(--logo-width);
+	-webkit-user-drag: none;
 }
 #hoverable-photo {
 	opacity: 0;
@@ -69,3 +73,5 @@ body .right a {
 .emoji {
 	font-size: 24px;
 }
+
+/* -webkit-user-drag: none; */
