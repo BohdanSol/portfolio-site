@@ -71,7 +71,10 @@ p {
 	transition: .5s;
 }
 .emoji {
-	font-size: 24px;
+	margin-bottom: -8px;
+	height: 24px;
 }
-
+.get-in {
+	font-size: 12pt;
+}
 /* -webkit-user-drag: none; */
